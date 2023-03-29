@@ -1,0 +1,10 @@
+Cada exercício da tabela em anexo tem declaração de variáveis e, na sequência, uma sentença que usa as variáveis e operadores lógicos.
+ Determine qual é o resultado final (Verdadeiro ou Falso) de cada sentença. 
+Resposta:
+Var Setença e Resposta
+nota = 10 - nota <=10 - Verdadeiro
+nota = 6 falta = 4 - (nota <=6) and (faltas <=3) - Falso
+convidados = 3 fumante = False - (convidados >4) or (fumante == true) - False
+dia = "qua" - (dia == "sab) or (dia = "dom") - False
+feriado = True - not(Feriado == False) - False
+dia = "ter" feriado = False - (dia =="seg") or !(feriado == False) - False
