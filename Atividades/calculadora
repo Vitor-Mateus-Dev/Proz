@@ -1,13 +1,20 @@
-def calculadora(num1, num2, operacao):
-    if operacao == 1:
-        resultado = num1 + num2
-    elif operacao == 2:
-        resultado = num1 - num2
-    elif operacao == 3:
-        resultado = num1 * num2
-    elif operacao == 4:
-        resultado = num1 / num2
-    else:
-        resultado = 0
-        print("Insira 1 para +, 2 para -, 3 para *, e 4 para /.")
-    return resultado
+numero1 = int(input("digite o primeiro numero"))
+operacao = int(
+    input("operação, 1 para +, 2 para -, 3 para *, 4 para / e 0 para sair"))
+numero2 = int(input("digite o segundo numero"))
+if operacao == 1:
+    resultado = numero1 + numero2
+    print(resultado)
+elif operacao == 2:
+    resultado = numero1 - numero2
+    print(resultado)
+elif operacao == 3:
+    resultado = numero1 * numero2
+    print(resultado)
+elif operacao == 4:
+    resultado = numero1 / numero2
+    print(resultado)
+elif operacao == 0:
+    print("finalizando")
+else:
+    print("operação invalidada")

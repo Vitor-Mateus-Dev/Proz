@@ -1,0 +1,22 @@
+while True:
+    numero1 = int(input("digite o primeiro numero"))
+    operacao = int(
+        input("operação, 1 para +, 2 para -, 3 para *, 4 para / e 0 para sair"))
+    numero2 = int(input("digite o segundo numero"))
+    if operacao == 1:
+        resultado = numero1 + numero2
+        print(resultado)
+    elif operacao == 2:
+        resultado = numero1 - numero2
+        print(resultado)
+    elif operacao == 3:
+        resultado = numero1 * numero2
+        print(resultado)
+    elif operacao == 4:
+        resultado = numero1 / numero2
+        print(resultado)
+    elif operacao == 0:
+        print("finalizando")
+        break
+    else:
+        print("operação invalidada")
