@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-bottom: 10px;
+    background-color: rgb(165, 106, 90);
+}
+ul li{border: 1px solid gray;
+background-color: rgb(255, 134, 71)}
+nav{height: 20px;
+width: 200px;}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+a:hover{color: yellow;}
+li{display: inline;}
+h1{text-align: center;}
+h2{margin-left: 5px;
+margin-top: 15px;
+margin-bottom: 4.3px;}
+p{margin-left: 5px;}
+footer{
+    padding: 10px;
+    background-color: rgb(165, 106, 90);
+    text-align: center;
+}
