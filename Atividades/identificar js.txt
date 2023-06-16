@@ -1,0 +1,12 @@
+Tira um print de alguma seção de uma página web na qual você tenha identificado o possível uso do JavaScript para implementar
+uma funcionalidadeatravés da interação do usuário(em outraspalavras, algo que não daria para fazer apenas com HTML e CSS).
+Sem a necessidade de inspecionar o elemento web, descreva da forma mais detalhada possível o comportamento que leva você a 
+acreditar que seria necessário o uso de JS.
+
+(imagem de referência: a página de atividade da Proz)
+
+A janela que aparece apôs apertar o enviar dizendo que fiz a atividade e ir para a próxima ou para o menu.
+Ao clickar no enviar ocorre um evento que aciona a janela com as opções citadas.
+
+E se eu sair da página sem finalizar a atividade aparece uma notificação também que não finalizei a atividade.
+provavelmente acontece um if quando aperto em voltar para o menu que verifica se enviei a atividade ou não.
