@@ -1,0 +1,16 @@
+O Sistema de Gerenciamento de Bancos de Dados é um conjunto de programas que serve para gerenciar um ou mais bancos de dados.
+Sendo assim, pesquise sobre os bancos de dados mais utilizados no mercado de trabalho e descreva dois deles.
+
+Oracle Database:
+O Oracle Database é um sistema de gerenciamento de banco de dados relacional (RDBMS) desenvolvido pela Oracle Corporation. 
+É um dos bancos de dados mais antigos e amplamente adotados em todo o mundo. Ele oferece suporte a uma ampla gama de aplicativos 
+empresariais e é conhecido por sua confiabilidade, escalabilidade e desempenho. O Oracle Database possui recursos avançados, 
+como gerenciamento de transações, suporte a várias plataformas, segurança robusta, recuperação de desastres e suporte a dados 
+geoespaciais. Além disso, ele oferece opções flexíveis de implementação, como bancos de dados locais, em nuvem e em cluster.
+
+MySQL:
+O MySQL é um sistema de gerenciamento de banco de dados relacional de código aberto amplamente utilizado. Ele foi adquirido pela 
+Oracle Corporation, mas continua sendo desenvolvido como um projeto de código aberto e possui uma grande comunidade de usuários e 
+desenvolvedores ativos. O MySQL é conhecido por sua facilidade de uso, desempenho eficiente e baixo custo de propriedade. 
+É amplamente utilizado em aplicativos da web e em pequenas e médias empresas. O MySQL suporta várias plataformas e possui recursos 
+como integridade referencial, replicação de dados, suporte a transações ACID, segurança avançada e escalabilidade horizontal.
