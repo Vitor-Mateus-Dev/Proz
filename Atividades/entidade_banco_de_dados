@@ -1,0 +1,6 @@
+Entidade Livro:
+Título (atributo simples)
+Autor:
+Nome (atributo composto)
+Nacionalidade (atributo composto)
+Gênero (atributo multivalorado)
