@@ -1,0 +1,35 @@
+A normalização de dados é um processo realizado nas tabelas para evitar anomalias. Com base no conteúdo visto no Hipertexto 3, 
+transforme a tabela em anexo na Primeira Forma Normal (1FN).
+
+-Tabela 01
+Identificador:\Nome:     \Endereço:           \Cidade:        \Uf: \País:
+01            \Reinaldo  \Rua 10, 34          \São Paulo      \SP  \Brasil
+02            \Nestor    \Avenida Bela, 45    \Paulo Afonso   \BA  \Brasil
+03            \Raquel    \Rua Cardoso, 100    \Salvador       \BA  \Brasil
+04            \Tati      \Bairro Cardoso, 002 \Rio de Janeiro \RJ  \Brasil
+05            \Lia       \Rua 50, 41          \Maceió         \AL  \Brasil
+06            \Paty      \Rua 01, 500         \Pinheiros      \SP  \Brasil
+ 
+
+-Tabela 02
+Identificador: \  Telefone:
+01             \68 0945-8723
+01             \68 8734-2343
+01             \68 2143-5469
+02             \92 5400-0043
+03             \87 4300-0000
+04             \41 5400-1232
+04             \41 4345-5555
+05             \98 1234-5678
+06             \71 2123-2425
+
+Tabela 03
+Identificador: \ Email:
+01             \reinaldo000@gmail.com
+01             \reinaldo@outlook.com
+02             \nestor123@gmail.com
+03             \raquel@outlook.com
+04             \tati000@gmail.com
+04             \tati@outlook.com
+05             \lia@outlook.com
+06             \paty@outlook.com
