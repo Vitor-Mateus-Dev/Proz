@@ -1,0 +1,22 @@
+Ao projetar um banco de dados com foco na segurança, é importante considerar os seguintes pilares da segurança de dados:
+
+Confidencialidade: A confidencialidade garante que apenas pessoas autorizadas tenham acesso aos dados. Para isso, é essencial 
+implementar mecanismos de autenticação e controle de acesso. Isso inclui a criação de contas de usuário com níveis apropriados de 
+privilégios e a utilização de senhas fortes para proteger o acesso aos dados.
+
+Integridade: A integridade assegura que os dados sejam precisos, completos e confiáveis. É importante garantir que os dados sejam 
+protegidos contra alterações não autorizadas, corrupção ou perda. Isso pode ser alcançado por meio de restrições de integridade no 
+banco de dados, como chaves primárias, restrições de integridade referencial e validações de dados.
+
+Disponibilidade: A disponibilidade garante que os dados estejam acessíveis quando necessário. É importante adotar práticas de 
+backup e recuperação de dados para evitar a perda de informações em caso de falhas ou desastres. Além disso, a infraestrutura de 
+hardware e rede deve ser robusta o suficiente para garantir um tempo de inatividade mínimo.
+
+Auditoria: A auditoria permite rastrear e monitorar as atividades no banco de dados. Registros de auditoria podem ser utilizados 
+para identificar atividades suspeitas, detectar violações de segurança e ajudar na investigação de incidentes. É importante 
+implementar mecanismos de registro de auditoria que registrem informações relevantes, como logins, consultas executadas e 
+modificações nos dados.
+
+Criptografia: A criptografia é uma medida eficaz para proteger os dados sensíveis contra acesso não autorizado. Ela envolve a 
+conversão dos dados em um formato ilegível para terceiros, a menos que possuam a chave de criptografia correta. Recomenda-se a 
+utilização de criptografia tanto durante a transmissão dos dados quanto no armazenamento.
