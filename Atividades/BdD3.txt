@@ -1,0 +1,7 @@
+CREATE PROCEDURE RelatorioQuantidadeProdutosDiarios
+AS
+BEGIN
+    SELECT DataCompra, COUNT(*) AS QuantidadeProdutos
+    FROM TabelaCompras
+    GROUP BY DataCompra
+END
