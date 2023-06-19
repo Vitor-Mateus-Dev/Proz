@@ -1,0 +1,36 @@
+-- Criação da base de dados
+CREATE DATABASE exemplo;
+
+-- Utilização da base de dados
+USE exemplo;
+
+-- Criação da tabela "clientes"
+CREATE TABLE clientes (
+  id INT PRIMARY KEY,
+  nome VARCHAR(50),
+  email VARCHAR(50)
+);
+
+-- Criação da tabela "pedidos"
+CREATE TABLE pedidos (
+  id INT PRIMARY KEY,
+  cliente_id INT,
+  produto VARCHAR(50),
+  quantidade INT,
+  FOREIGN KEY (cliente_id) REFERENCES clientes(id)
+);
+
+-- Inserção de dados na tabela "clientes"
+INSERT INTO clientes (id, nome, email) VALUES
+(1, 'João', 'joao@example.com'),
+(2, 'Maria', 'maria@example.com');
+
+-- Inserção de dados na tabela "pedidos"
+INSERT INTO pedidos (id, cliente_id, produto, quantidade) VALUES
+(1, 1, 'Camiseta', 2),
+(2, 2, 'Calça', 1);
+
+-- Consulta utilizando JOIN para obter informações de clientes e seus pedidos
+SELECT c.nome, p.produto, p.quantidade
+FROM clientes c
+JOIN pedidos p ON c.id = p.cliente_id;
