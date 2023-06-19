@@ -1,0 +1,1 @@
+SELECT contar_clientes_cadastrados('2023-06-16') AS total_clientes;
