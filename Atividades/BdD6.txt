@@ -1,0 +1,12 @@
+Utilizar senhas complexas: Crie senhas que sejam longas e contenham uma combinação de letras maiúsculas e minúsculas, números e 
+caracteres especiais. Evite usar informações pessoais óbvias, como nomes, datas de nascimento ou palavras comuns. Quanto mais 
+complexa e única a senha, mais difícil será para um atacante adivinhá-la ou quebrá-la por meio de ataques de força bruta.
+
+Implementar autenticação de dois fatores (2FA): O 2FA é um método de segurança adicional que requer uma segunda forma de 
+autenticação além da senha. Geralmente, isso envolve o uso de um código enviado por mensagem de texto, aplicativo de autenticação 
+ou biometria, como impressão digital ou reconhecimento facial. Ao ativar o 2FA, mesmo que alguém descubra sua senha, ainda será 
+necessário fornecer a segunda forma de autenticação para acessar a conta.
+
+Evitar reutilização de senhas: Nunca use a mesma senha para várias contas. Se um serviço for comprometido e suas senhas forem 
+expostas, os invasores não poderão acessar outras contas se você tiver senhas diferentes para cada uma delas. Use um gerenciador 
+de senhas confiável para ajudar a armazenar e gerar senhas exclusivas para cada serviço.
